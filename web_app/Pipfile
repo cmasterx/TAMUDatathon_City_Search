@@ -4,12 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 flask = "*"
 gunicorn = "*"
-flaks-cors = "*"
 flask-cors = "*"
+werkzeug = "*"
 
 [requires]
 python_version = "3.7"
